@@ -6,7 +6,7 @@
    img: "1",  
    desc: "Warm, soft, and made from scratch—our homemade cinnamon rolls are the perfect treat for any time of day.", 
    quantity: "0", 
-   cartimage: "/Media/Images/Function/sale-image-1.png"
+   cartimage: "./Images/Function/sale-image-1.png"
  },{ 
    id: "chocCookies", 
    name: "Choc Chip Cookies", 
@@ -15,7 +15,7 @@
    img: "2",  
    desc: "Whether you’re craving a classic chocolate chip our cookies deliver that just-out-of-the-oven taste you can’t resist. ", 
     quantity: "0", 
-     cartimage: "/Media/Images/Function/sale-image-2.png"
+     cartimage: "./Images/Function/sale-image-2.png"
  },{ 
    id: "cookBrownies", 
    name: "Cookie Brownies", 
@@ -24,7 +24,7 @@
    img: "3",  
    desc: "Crispy edges, gooey centers, and layers of chocolate that just don't quit. For those who want it all right now.", 
     quantity: "0", 
-     cartimage: "/Media/Images/Function/sale-image-3.png"
+     cartimage: "./Images/Function/sale-image-3.png"
  },{ 
    id: "poundCake", 
    name: "Pound Cake", 
@@ -33,5 +33,5 @@
    img: "4",  
    desc: " A velvety crumb and a golden crust. Proof that perfection doesn't need frosting.", 
   quantity: "0", 
-   cartimage: "/Media/Images/Function/sale-image-4.png" 
+   cartimage: "./Images/Function/sale-image-4.png" 
  }, ]; 
