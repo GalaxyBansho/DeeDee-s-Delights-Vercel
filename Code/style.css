@@ -30,7 +30,7 @@ html{
 .hero-section{ 
     max-height: 100vh; 
     max-width: 100vw;  
-    background: url(Images/Display/Company/cookieshero.png);
+    background: url(/Images/Display/Company/cookieshero.png);
     background-repeat: no-repeat;  
     background-size: 500px; 
     object-fit: cover; 
