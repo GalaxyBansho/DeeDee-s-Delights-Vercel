@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title> 
+   <link rel="stylesheet" href="style.css">   
+          <style> 
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>    
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <script src="https://www.paypal.com/sdk/js?client-id=AQK8TnfnI1Zqk5Dgwm7AmvsNL8KPNCWfVECSvMazq3GbUOYvZuPDLExnQnwv2o-KpqjfOPv31yoJIee3&buyer-country=US&currency=USD&components=buttons&enable-funding=venmo,paylater,card" data-sdk-integration-source="developer-studio"></script>
+</head>   
+
+<body> 
+    
+    <div class="page-menu">  
+        <div class="page-logo"><a href="src/index.html"><div class="page-logo"></div></a></div> 
+        <div class="menu-2">  
+                <ul> 
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="menu.html">Order</a></li> 
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div> 
+        <div class="page-cta-section"> 
+            <button class="cta-button">Order Now</button> 
+            <div class="cta-menu-button"> 
+                <div class="menu-button-wrapper"></div>
+            </div>  
+            
+        </div>  
+    </div>  
+    
+    <div class="checkout-media">
+    <div class="checkout-title"><h1>Checkout</h1></div>  
+
+    <div class="checkout-box" id="checkout-box"> 
+        <div class="checkout-list" id="checkout-list"> 
+            <div class="checkout-list-item" id="checkout-list-item"></div> 
+        </div>   
+        <div class="checkout-total" id="checkout-total"><p class="total-text">Total : $100.00</p></div>
+    </div> 
+
+    <div class="checkout-submit">  
+        <div class="submit-button-holder" id="submit-button-holder">   
+            <button class="clear" id="clear">Clear Cart</button> 
+        </div>   
+         
+        <div class="paypal" id="paypal"></div>
+       
+    </div>  
+
+<div class="page-structure"></div>
+    <div class="footer"> 
+        <div class="logo-container"> 
+            <div class="logo-wrapper-footer"></div>
+        </div> 
+        <div class="biz-info"> 
+            <p>Address: Winston-Salem, North Carolina 27105</p> 
+            <p>Contact: (919) 555-0147</p>
+        </div> 
+        <div class="social-media-container"> 
+            <ul> 
+                <li><a href="#"><img class="icon-1" src="/Media/Images/Function/twitter_5968958.png" alt=""></a></li>
+                <li><a href=""><img class="icon" src="/Media/Images/Function/instagram.png" alt=""></a></li>
+                <li><a href=""><img class="icon" src="/Media/Images/Function/facebook.png" alt=""></a></li>
+                <li><a href=""><img class="icon" src="/Media/Images/Function/linkedin.png" alt=""></a></li> 
+            </ul>
+        </div> 
+           <div class="footer-links"> 
+                <ul class="footer-list"> 
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/Code/contact.html">About Us</a></li> 
+                    <li><a href="/Code/menu.html">Order</a></li>
+                    <li><a href="/Code/contact.html">Contact Us</a></li>
+                    <li><a href="/Code/contact.html">Locations</a></li>
+                </ul>
+            </div> 
+        <div class="policy-links"> 
+            <ul> 
+                <li><a href="">Privacy Policy</a></li> 
+                <li><a href="">Terms of Service</a></li> 
+            </ul>
+        </div>  
+        <div class="copyright"> 
+            <p class="copyright-paragraph">© 2025 DeeDee’s Delights. All rights reserved.</p>
+        </div>
+    </div> 
+ </div> 
+ 
+    <script src="data.js"></script> 
+    <script src="order.js"></script>   
+
+
+</body>
+</html>
