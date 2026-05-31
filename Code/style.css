@@ -14,7 +14,8 @@
     --accent4-color: #ff9d9c;
     font-family: 'Montserrat', sans-serif;   
   
-   
+   min-height: 100vh; /* Fallback for older browsers */
+    min-height: 100dvh; /* Dynamic adjustments on real mobile phones */
  
 }   
 
