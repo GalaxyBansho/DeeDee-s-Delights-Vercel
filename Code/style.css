@@ -484,7 +484,7 @@ cursor: pointer;
 } */
 .body-2{ 
      display: flex;
-    height: 2800px;  
+    height: 2600px;  
     width: 100%;  
     flex-direction: column; 
     align-items: center;  
