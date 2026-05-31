@@ -30,7 +30,7 @@ html{
 .hero-section{ 
     max-height: 100vh; 
     max-width: 100vw;  
-    background: url(/Images/Display/Company/cookieshero.png);
+    background: url(./Images/Display/Company/cookieshero.png);
     background-repeat: no-repeat;  
     background-size: 500px; 
     object-fit: cover; 
@@ -81,7 +81,7 @@ html{
     position: absolute;
     max-height: 200px; 
     max-width: 120px;
-    background-image: url(/Media/Images/Function/logo\ no\ bg.png); 
+    background-image: url(./Images/Function/logo\ no\ bg.png); 
     background-repeat: no-repeat; 
     background-size:  cover; 
     background-position: center;    
@@ -202,7 +202,7 @@ html{
 .menu-button-wrapper{ 
     height: 40px; 
     width: 40px; 
-    background-image: url(/Media/Images/Function/menu\ -\ white.png); 
+    background-image: url(./Images/Function/menu\ -\ white.png); 
     background-repeat: no-repeat; 
     background-size: 40px;   
     position: relative; 
@@ -210,7 +210,7 @@ html{
 
 }   
 .menu-button-wrapper.active{ 
-     background-image: url(/Media/Images/Function/x-white.png); 
+     background-image: url(./Images/Function/x-white.png); 
      background-repeat: no-repeat;
      background-position: center;
      cursor: pointer;
@@ -447,7 +447,7 @@ cursor: pointer;
     border-radius: 6px; 
     box-shadow: 5px 5px #91efd4; 
     border: white 3px solid; 
-    background: url("/Media/Images/Display/Company/cinnamonrolls.jpg"); 
+    background: url("./Images/Display/Company/cinnamonrolls.jpg"); 
     position: absolute;
     background-position: center; 
     background-size: 300px;  
@@ -466,7 +466,7 @@ cursor: pointer;
     border-radius: 6px; 
     box-shadow: 5px 5px #91efd4; 
     border: white 3px solid; 
-    background: url("/Media/Images/Display/Company/two\ cakes.jpg"); 
+    background: url("./Images/Display/Company/two\ cakes.jpg"); 
     position: absolute;
     background-position: center; 
     background-size:500px;   
@@ -526,7 +526,7 @@ cursor: pointer;
     border-radius: 6px; 
     box-shadow: 5px 5px #0EC2E3; 
     border: white 3px solid; 
-    background: url("/Media/Images/Display/Royalty-Free/pexels-markusspiske-94443.jpg"); 
+    background: url("./Images/Display/Royalty-Free/pexels-markusspiske-94443.jpg"); 
     position: absolute;
     background-position: center; 
     background-size:cover;   
@@ -540,7 +540,7 @@ cursor: pointer;
     border-radius: 6px; 
     box-shadow: 5px 5px #0EC2E3; 
     border: white 3px solid; 
-    background: url("/Media/Images/Display/Royalty-Free/pexels-valeriya-9553702\ -\ Copy.jpg"); 
+    background: url("./Images/Display/Royalty-Free/pexels-valeriya-9553702\ -\ Copy.jpg"); 
     position: absolute;
     background-position: center; 
     background-size:500px;   
@@ -554,7 +554,7 @@ cursor: pointer;
     border-radius: 6px; 
     box-shadow: 5px 5px #0EC2E3; 
     border: white 3px solid; 
-    background: url("/Media/Images/Display/Royalty-Free/pexels-igor-ovsyannykov-56123-205961.jpg"); 
+    background: url("./Images/Display/Royalty-Free/pexels-igor-ovsyannykov-56123-205961.jpg"); 
     position: absolute;
     background-position: center; 
     background-size:500px;   
@@ -568,7 +568,7 @@ cursor: pointer;
     border-radius: 6px; 
     box-shadow: 5px 5px #0EC2E3; 
     border: white 3px solid; 
-      background: url("/Media/Images/Display/Royalty-Free/pexels-igor-ovsyannykov-56123-205961.jpg"); 
+      background: url("./Images/Display/Royalty-Free/pexels-igor-ovsyannykov-56123-205961.jpg"); 
     position: absolute;
     background-position: center; 
     background-size:500px;   
@@ -648,7 +648,7 @@ height: 40%;
     width: 340px;  
     border: black 3px solid; 
     border-radius: 6px; 
-    background: url("/Media/Images/Display/Royalty-Free/pexels-pixabay-461060.jpg"); 
+    background: url("./Images/Display/Royalty-Free/pexels-pixabay-461060.jpg"); 
     background-position: center; 
     object-fit: cover; 
     background-size: 150%; 
@@ -660,7 +660,7 @@ height: 40%;
     width: 340px;  
     border: 3px solid black;
      border-radius: 6px; 
-     background: url("/Media/Images/Display/Royalty-Free/pexels-taryn-elliott-4099128.jpg"); 
+     background: url("./Images/Display/Royalty-Free/pexels-taryn-elliott-4099128.jpg"); 
     background-position: center; 
     object-fit: cover; 
     background-size: 100%; 
@@ -670,7 +670,7 @@ height: 40%;
     height: 300px; 
     width: 340px; 
     border: black 5px solid; 
-    background: url("/Media/Images/Display/Royalty-Free/pexels-tima-miroshnichenko-6169056.jpg"); 
+    background: url("./Images/Display/Royalty-Free/pexels-tima-miroshnichenko-6169056.jpg"); 
     background-position: center; 
     background-size: 600px; 
     object-fit: cover; 
@@ -957,7 +957,7 @@ transition: 0.3s;
 .logo-wrapper-footer{ 
     height: 100%; 
     width: 180px; 
- background: url("/Media/Images/Function/logo\ no\ bg.png"); 
+ background: url("./Images/Function/logo\ no\ bg.png"); 
  background-size: cover;  
  background-repeat: no-repeat; 
  background-position: center;
@@ -1091,7 +1091,7 @@ transition: 0.1s;
 .page-logo{ 
     height: 80px; 
     width: 80px; 
-    background: url(/Media/Images/Function/logo\ no\ bg.png); 
+    background: url(./Images/Function/logo\ no\ bg.png); 
     background-repeat: no-repeat; 
     background-size: 130px; 
     background-position: center;   
@@ -1164,7 +1164,7 @@ transition: 0.1s;
 }   
 .page-menu-background-1{ 
     position: absolute; 
-    background-image: url(/Media/Images/Function/cinnamon-roll_251945.png); 
+    background-image: url(./Images/Function/cinnamon-roll_251945.png); 
     background-repeat: no-repeat; 
     object-fit: cover; 
     z-index: -1; 
@@ -1304,7 +1304,7 @@ transition: 0.1s;
 }   
 .page-menu-background-2{ 
     position: absolute; 
-    background-image: url(/Media/Images/Function/two\ cookies\ art\ no\ bg.png); 
+    background-image: url(./Images/Function/two\ cookies\ art\ no\ bg.png); 
     background-repeat: no-repeat; 
     object-fit: cover; 
     z-index: -1; 
@@ -1403,7 +1403,7 @@ transition: 0.1s;
 }  
 .page-menu-background-3{ 
     position: absolute; 
-    background-image: url(/Media/Images/Function/brownie\ art.png); 
+    background-image: url(./Images/Function/brownie\ art.png); 
     background-repeat: no-repeat; 
     object-fit: cover; 
     z-index: -1; 
@@ -1497,7 +1497,7 @@ transition: 0.1s;
 }  
 .page-menu-background-4{ 
     position: absolute; 
-    background-image: url(/Media/Images/Function/Poundcake-icon.png); 
+    background-image: url(./Images/Function/Poundcake-icon.png); 
     background-repeat: no-repeat; 
    object-fit: cover;
     z-index: -1; 
@@ -2344,7 +2344,7 @@ height: 65px;
 .hero-section{ 
     height: 130vh; 
     max-width: 100vw;  
-    background: url(/Media/Images/Display/Company/cookieshero.png);
+    background: url(./Images/Display/Company/cookieshero.png);
     background-repeat: no-repeat;  
     background-size: 700px; 
     object-fit: cover; 
@@ -2452,7 +2452,7 @@ text-align: center
     position: absolute;
     height: 300px; 
     max-width: 200px;
-    background-image: url(/Media/Images/Function/logo\ no\ bg.png); 
+    background-image: url(./Images/Function/logo\ no\ bg.png); 
     background-repeat: no-repeat; 
     background-size:  cover; 
     background-position: center;     
@@ -2527,7 +2527,7 @@ text-align: center
 .menu-button-wrapper{ 
     height: 40px; 
     width: 40px; 
-    background-image: url(/Media/Images/Function/menu\ -\ white.png); 
+    background-image: url(./Images/Function/menu\ -\ white.png); 
     background-repeat: no-repeat; 
     background-size: 40px;   
     position: absolute; 
@@ -2753,7 +2753,7 @@ align-self: center;
     border-radius: 6px; 
     box-shadow: 5px 5px #91efd4; 
     border: white 3px solid; 
-    background: url("/Media/Images/Display/Company/cinnamonrolls.jpg"); 
+    background: url("./Images/Display/Company/cinnamonrolls.jpg"); 
     position: absolute;
     background-position: center; 
     background-size: 300px;  
@@ -2772,7 +2772,7 @@ align-self: center;
     border-radius: 6px; 
     box-shadow: 5px 5px #91efd4; 
     border: white 3px solid; 
-    background: url("/Media/Images/Display/Company/two\ cakes.jpg"); 
+    background: url("./Images/Display/Company/two\ cakes.jpg"); 
     position: absolute;
     background-position: center; 
     background-size:500px;   
@@ -2825,7 +2825,7 @@ align-self: center;
     border-radius: 6px; 
     box-shadow: 5px 5px #0EC2E3; 
     border: white 3px solid; 
-    background: url("/Media/Images/Display/Royalty-Free/pexels-markusspiske-94443.jpg"); 
+    background: url("./Images/Display/Royalty-Free/pexels-markusspiske-94443.jpg"); 
     position: absolute;
     background-position: center; 
     background-size:cover;   
@@ -2839,7 +2839,7 @@ align-self: center;
     border-radius: 6px; 
     box-shadow: 5px 5px #0EC2E3; 
     border: white 3px solid; 
-    background: url("/Media/Images/Display/Royalty-Free/pexels-valeriya-9553702\ -\ Copy.jpg"); 
+    background: url("./Images/Display/Royalty-Free/pexels-valeriya-9553702\ -\ Copy.jpg"); 
     position: absolute;
     background-position: center; 
     background-size:500px;   
@@ -2853,7 +2853,7 @@ align-self: center;
     border-radius: 6px; 
     box-shadow: 5px 5px #0EC2E3; 
     border: white 3px solid; 
-    background: url("/Media/Images/Display/Royalty-Free/pexels-igor-ovsyannykov-56123-205961.jpg"); 
+    background: url("./Images/Display/Royalty-Free/pexels-igor-ovsyannykov-56123-205961.jpg"); 
     position: absolute;
     background-position: center; 
     background-size:500px;   
@@ -2867,7 +2867,7 @@ align-self: center;
     border-radius: 6px; 
     box-shadow: 5px 5px #0EC2E3; 
     border: white 3px solid; 
-      background: url("/Media/Images/Display/Royalty-Free/pexels-igor-ovsyannykov-56123-205961.jpg"); 
+      background: url("./Images/Display/Royalty-Free/pexels-igor-ovsyannykov-56123-205961.jpg"); 
     position: absolute;
     background-position: center; 
     background-size:500px;   
@@ -2957,7 +2957,7 @@ height: 40%;
     width: 340px;  
     border: black 3px solid; 
     border-radius: 6px; 
-    background: url("/Media/Images/Display/Royalty-Free/pexels-pixabay-461060.jpg"); 
+    background: url("./Images/Display/Royalty-Free/pexels-pixabay-461060.jpg"); 
     background-position: center; 
     object-fit: cover; 
     background-size: 150%; 
@@ -2969,7 +2969,7 @@ height: 40%;
     width: 340px;  
     border: 3px solid black;
      border-radius: 6px; 
-     background: url("/Media/Images/Display/Royalty-Free/pexels-taryn-elliott-4099128.jpg"); 
+     background: url("./Images/Display/Royalty-Free/pexels-taryn-elliott-4099128.jpg"); 
     background-position: center; 
     object-fit: cover; 
     background-size: 100%; 
@@ -2979,7 +2979,7 @@ height: 40%;
     height: 450px; 
     width: 80%; 
     border: black 5px solid; 
-    background: url("/Media/Images/Display/Royalty-Free/pexels-tima-miroshnichenko-6169056.jpg"); 
+    background: url("./Images/Display/Royalty-Free/pexels-tima-miroshnichenko-6169056.jpg"); 
     background-position: right 10px center ; 
     background-size: 600px; 
     object-fit: cover; 
@@ -3291,7 +3291,7 @@ transition: 0.3s;
 .logo-wrapper-footer{ 
     height: 100%; 
     width: 180px; 
- background: url("/Media/Images/Function/logo\ no\ bg.png"); 
+ background: url("./Images/Function/logo\ no\ bg.png"); 
  background-size: cover;  
  background-repeat: no-repeat; 
  background-position: center; 
@@ -3423,7 +3423,7 @@ transition: 0.1s;
 .page-logo{ 
     height: 80px; 
     width: 80px; 
-    background: url(/Media/Images/Function/logo\ no\ bg.png); 
+    background: url(./Images/Function/logo\ no\ bg.png); 
     background-repeat: no-repeat; 
     background-size: 130px; 
     background-position: center;   
@@ -3496,7 +3496,7 @@ transition: 0.1s;
 }   
 .page-menu-background-1{ 
     position: absolute; 
-    background-image: url(/Media/Images/Function/cinnamon-roll_251945.png); 
+    background-image: url(./Images/Function/cinnamon-roll_251945.png); 
     background-repeat: no-repeat; 
     object-fit: cover; 
     z-index: -1; 
@@ -3648,7 +3648,7 @@ transition: 0.1s;
 }   
 .page-menu-background-2{ 
     position: absolute; 
-    background-image: url(/Media/Images/Function/two\ cookies\ art\ no\ bg.png); 
+    background-image: url(./Images/Function/two\ cookies\ art\ no\ bg.png); 
     background-repeat: no-repeat; 
     object-fit: cover; 
     z-index: -1; 
@@ -3747,7 +3747,7 @@ transition: 0.1s;
 }  
 .page-menu-background-3{ 
     position: absolute; 
-    background-image: url(/Media/Images/Function/brownie\ art.png); 
+    background-image: url(./Images/Function/brownie\ art.png); 
     background-repeat: no-repeat; 
     object-fit: cover; 
     z-index: -1; 
@@ -3841,7 +3841,7 @@ transition: 0.1s;
 }  
 .page-menu-background-4{ 
     position: absolute; 
-    background-image: url(/Media/Images/Function/Poundcake-icon.png); 
+    background-image: url(./Images/Function/Poundcake-icon.png); 
     background-repeat: no-repeat; 
    object-fit: cover;
     z-index: -1; 
