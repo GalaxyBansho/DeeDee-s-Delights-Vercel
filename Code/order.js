@@ -225,10 +225,28 @@ createOrder(data, actions) {
     });
 },
                 // Direct Client Capture Handling
-           async onApprove(data, actions) {
+          async onApprove(data, actions) {
     try {
         // 1. Capture the funds from the transaction
         const details = await actions.order.capture();
+        
+        console.log("Capture details payload:", details);
+
+        // 2. Clear the cart data so they don't buy the items twice
+        if (typeof localStorage !== 'undefined') {
+            localStorage.removeItem("cake"); // Empties your cart storage
+        }
+
+        // 3. ROUTE THE USER: Send them to your confirmation page
+        // If your success file is in the same folder as checkout, use "success.html"
+        // If it's in a src folder, adjust the path: "src/success.html"
+        window.location.href = "success.html"; 
+
+    } catch (error) {
+        console.error("Direct execution block runtime crash:", error);
+        resultMessage("Payment went through, but we failed to redirect. Please contact support.");
+    }
+
          
         
 
@@ -256,10 +274,7 @@ emailjs.send("YOUR_SERVICE_ID", "TEMPLATE_ID_ORDER", templateParams)
         // If it's in a src folder, adjust the path: "src/success.html"
         window.location.href = "success.html"; 
 
-    } catch (error) {
-        console.error("Direct execution block runtime crash:", error);
-        resultMessage("Payment went through, but we failed to redirect. Please contact support.");
-    }
+
 },
                 onError(err) {
                     console.error("SDK Root Interface Crash:", err);
