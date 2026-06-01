@@ -229,7 +229,21 @@ createOrder(data, actions) {
     try {
         // 1. Capture the funds from the transaction
         const details = await actions.order.capture();
+         
         
+
+const templateParams = {
+    customer_name: details.payer.name.given_name,
+    customer_email: details.payer.email_address, // Automatically grabs their PayPal email
+    order_id: details.id,
+    total_amount: window.currentCartPrice.toFixed(2)
+};
+
+emailjs.send("YOUR_SERVICE_ID", "TEMPLATE_ID_ORDER", templateParams)
+    .then(() => {
+        console.log("Receipt sent successfully!");
+        window.location.href = "success.html";
+    });
         console.log("Capture details payload:", details);
 
         // 2. Clear the cart data so they don't buy the items twice
