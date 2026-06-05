@@ -82,7 +82,7 @@ html{
     position: absolute;
     max-height: 200px; 
     max-width: 120px;
-    background-image: url(./Images/Function/deelogo.png); 
+    background-image: url(/Images/Function/deelogo.png); 
     background-repeat: no-repeat; 
     background-size:  cover; 
     background-position: center;    
