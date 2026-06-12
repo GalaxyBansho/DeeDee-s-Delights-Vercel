@@ -921,7 +921,9 @@ transition: 0.3s;
     justify-content: center; 
     text-align: center;    
     padding: 20px 5px;
-}    
+}      
+.questions a{ 
+    colorL: black;
 .questions h1{ 
     font-size: 1.8rem; 
     
