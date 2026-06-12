@@ -4547,7 +4547,7 @@ resize: none;
   }
 } 
 /* Target your submit button class or element */
-.submit-button button input[type="submit"] {
+.submit-button, button, input[type="submit"],a {
   -webkit-appearance: none;  /* Blasts away iOS default styling */
   appearance: none;
   
@@ -4559,12 +4559,4 @@ resize: none;
 
 /* Force the links to inherit your intended styling */
 a, 
-.contact-link {
-  color: #000; /* Or whatever your preferred blue/brand color is */
-  text-decoration: none;
-}
 
-/* Ensure buttons don't override the text color */
-button {
-  color: #0070f3;
-}
