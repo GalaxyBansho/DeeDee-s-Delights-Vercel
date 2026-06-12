@@ -923,9 +923,7 @@ transition: 0.3s;
     padding: 20px 5px;
 }      
 
-.questions a{
-    color:black;
-}
+
 .questions h1{ 
     font-size: 1.8rem; 
     
@@ -944,6 +942,9 @@ transition: 0.3s;
     background-color: white;
     font-weight: 500; 
     transition: 0.3s;
+}  
+.questions-button a{ 
+color: black;
 } 
 .questions-button button:hover{  
     height: 65px; 
