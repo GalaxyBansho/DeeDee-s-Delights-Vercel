@@ -4547,7 +4547,9 @@ resize: none;
   }
 } 
 /* Target your submit button class or element */
-.submit-button button{
+.submit-button, 
+button, 
+input[type="submit"] {
   -webkit-appearance: none;  /* Blasts away iOS default styling */
   appearance: none;
   
