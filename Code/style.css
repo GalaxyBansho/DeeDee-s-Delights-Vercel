@@ -4546,17 +4546,16 @@ resize: none;
     margin: 0 !important;
   }
 } 
-/* Target your submit button class or element */
-.submit-button, button, input[type="submit"],a {
+ /* Target your submit button class or element */
+.submit-button, 
+button, 
+input[type="submit"] {
   -webkit-appearance: none;  /* Blasts away iOS default styling */
   appearance: none;
   
   /* Re-declare your custom border to be safe */
-  border: 3px solid #000000; 
+  border: 2px solid #000000; 
   border-radius: 8px;       
   background-color: transparent; 
 }
-
-/* Force the links to inherit your intended styling */
-a, 
 
