@@ -4549,12 +4549,12 @@ resize: none;
 /* Target your submit button class or element */
 .submit-button, 
 button, 
-input[type="submit"] {
+input[type="submit"],a {
   -webkit-appearance: none;  /* Blasts away iOS default styling */
   appearance: none;
   
   /* Re-declare your custom border to be safe */
-  border: 2px solid #000000; 
+  border: 3px solid #000000; 
   border-radius: 8px;       
   background-color: transparent; 
 }
