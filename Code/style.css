@@ -4559,7 +4559,7 @@ input[type="submit"] {
   background-color: transparent; 
 }
 /* Replace .your-button-class with the actual class name you used */
-.contact-button, 
+.questions-button, 
 .submit-button {
   color: #000000 !important;
   -webkit-text-fill-color: #000000; /* Forces iOS Safari to cooperate */
