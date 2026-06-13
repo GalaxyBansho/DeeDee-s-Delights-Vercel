@@ -3,22 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> 
+    <title>Contact Us</title> 
     <link rel="stylesheet" href="style.css">  
        <style> 
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-    </style>   
+    </style>     
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("CZtgGMeUMpaccH9kO"); // 👈 Replace with your real Public Key
+        })();
+    </script>
+    
     
 </head>
 <body>
     <div class="page-menu"> 
-         <div class="page-logo"> <a href="index.html"><div class="page-logo"></div></a> <div class="gen-menu">  
+         <div class="page-logo"> <a href="index.html"><div class="page-logo"></div></a>  
+         <div class="gen-menu">  
                 <ul> 
-                    <li><a href="index.html">Home</a></li> 
-                    <li><a href="menu.html">Order</a></li> 
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="src/index.html">Home</a></li> 
+                    <li><a href="/Code/menu.html">Order</a></li> 
+                    <li><a href="/Code/contact.html">Contact</a></li>
                 </ul>
-            </div> </div> 
+            </div>  </div> 
          <div class="page-cta-section"> 
         <button class="cta-button"><a href="menu.html">Order Now</a></button> 
         <div class="cta-menu-button"> 
@@ -30,20 +39,26 @@
     <div class="contact-title"> 
         <h1>Contact Us</h1> 
         
-           </div>
+           </div> 
+           <form onsubmit="sendContactEmail(event)">
         <div class="form-wrapper"> 
-            <div class="name-box"> 
-                <h1>Name</h1><input type="text" placeholder="Enter name here...">
-            </div> 
-            <div class="email-box"> 
-                <h1>E-mail</h1> <input type="text" placeholder="Enter E-mail Here...">
+            <div class="name-box" id="name-box"> 
+                <label for="user_name">Name</label> 
+                <input type="text" id="user_name" name = "user_name" placeholder="Enter name here..." required>
             </div>  
-            <div class="inquiry-box">
-            <h1>Questions</h1><textarea  placeholder="How can we help you?......"></textarea> 
+
+            <div class="email-box" id="email-box"> 
+                <label for="user_email">Email</label> 
+                <input type="text" id="user_email" name="user_email" placeholder="Enter E-mail Here..." required>
+            </div>  
+            <div class="inquiry-box" id="inquiry-box">
+            <label for="message">Question</label> 
+            <textarea  placeholder="How can we help you?......" id="message" name="message" required></textarea> 
             </div> 
             <div class="submit-button-wrapper"> 
                 <button class="submit-button">Submit</button>
-            </div>
+            </div> 
+            </form>
         </div>  
         </div>
         <div class="footer"> 
@@ -56,19 +71,19 @@
             </div> 
             <div class="social-media-container"> 
                 <ul> 
-                <li><a href="#"><img class="icon-1" src="./Images/Function/twitter_5968958.png" alt=""></a></li>
-                <li><a href=""><img class="icon" src="./Images/Function/instagram.png" alt=""></a></li>
-                <li><a href=""><img class="icon" src="./Images/Function/facebook.png" alt=""></a></li>
-                <li><a href=""><img class="icon" src="./Images/Function/linkedin.png" alt=""></a></li> 
+                <li><a href="#"><img class="icon-1" src="/Media/Images/Function/twitter_5968958.png" alt=""></a></li>
+                <li><a href=""><img class="icon" src="/Media/Images/Function/instagram.png" alt=""></a></li>
+                <li><a href=""><img class="icon" src="/Media/Images/Function/facebook.png" alt=""></a></li>
+                <li><a href=""><img class="icon" src="/Media/Images/Function/linkedin.png" alt=""></a></li> 
              
             </ul></div> 
                  <div class="footer-links"> 
                 <ul class="footer-list"> 
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="contact.html">About Us</a></li> 
-                    <li><a href="menu.html">Order</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="contact.html">Locations</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/Code/contact.html">About Us</a></li> 
+                    <li><a href="/Code/menu.html">Order</a></li>
+                    <li><a href="/Code/contact.html">Contact Us</a></li>
+                    <li><a href="/Code/contact.html">Locations</a></li>
                 </ul>
             </div> 
             <div class="policy-links"> 
@@ -85,7 +100,8 @@
   
      
    
-<script src="script.js"></script>
+<script src="script.js"></script> 
+<script src="contact.js"></script>
     
 </body>
 </html>
