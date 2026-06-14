@@ -297,7 +297,7 @@ cursor: pointer;
 
 .gradient-transition{  
     display: flex;
-    height: 150px; 
+    height: 160pxx; 
     max-width: 100%;  
     box-sizing: border-box;
     border-image-source: linear-gradient(#0EC2E3,white); 
