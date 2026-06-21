@@ -4024,15 +4024,14 @@ overflow: hidden;
     display: flex;
     border: black 5px solid; 
     width: 400px; 
-    height: 70vh;  
+    height: 80vh;  
     justify-self: center;  
     border-radius: 6px; 
     justify-content: flex-start; 
     align-items: center; 
     padding: 30px; 
     flex-direction: column; 
-    text-align: center; 
-   
+    text-align: center;  
 }    
 .checkout-total{ 
     position: relative; 
@@ -4044,10 +4043,9 @@ overflow: hidden;
     grid-template-columns: repeat(1,300px);
     width: 100%;   
     align-items: center;   
-    max-height: 200px;
     gap:20px;   
-    
-    
+  
+   
     justify-content: center;
 }  
 
