@@ -4034,8 +4034,11 @@ overflow: hidden;
     text-align: center;  
 }    
 .checkout-total{ 
+    margin-top:0px;
     position: relative; 
-    top: 0px;
+    top: 60px;   
+   
+    
 }
 
 .checkout-list{ 
