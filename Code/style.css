@@ -2159,7 +2159,8 @@ resize: none;
     cursor: pointer; 
     position: relative; 
      z-index: 1; 
-     transition: 0.5s; 
+     transition: 0.5s;  
+    color:black;
     
 }  
 .submit-button:hover{ 
@@ -2175,7 +2176,8 @@ resize: none;
     top: 0; 
     left: 0; 
     z-index: -1; 
-    transition: 0.5s; 
+    transition: 0.5s;  
+     color:black;
    
 } 
 .submit-button:hover:before{ 
